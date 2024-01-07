@@ -1,0 +1,17 @@
+Linux:: Hands-on Assignment 
+•	Reset ssh port to (2222) of your prod instance allow firewall and selinux and check to connect (on local instance and on aws ec2)
+•	Disable n enable root account as per requirement
+•	Connect a remote server and run top command then logout…what happen … top will run or stop…. nohup
+•	How to check a port status (open or close?)
+•	Ssh connection fail….steps to check and solve 
+•	Google ping is ok but web site open fail….how to solve
+•	Password less connection …on-prem …and on aws ec2
+•	Install and configure httpd service on linux pc
+•	Create a NFS storage and access it from 2 linux pcs.
+•	Set dhcp ip range and NAT ip range in vmware 
+
+
+
+
+
+

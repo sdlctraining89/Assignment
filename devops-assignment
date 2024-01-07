@@ -1,0 +1,19 @@
+DevOps Assignments/Projects:
+
+1. Cicd freestyle pipeline end point web server
+2. Cicd freestyle pipeline end point Docker container
+3. Cicd freestyle pipeline end point Docker container using Jenkins variables
+4. Cicd pipeline end point Docker using python/java/nodejs app in Docker file
+5. Cicd scripted pipeline
+6. Cicd declarative pipeline
+7. Cicd pipeline end point kubernetes cluster using readymade image from bitnani
+8. cicd pipeline end point kubernetes cluster using container images(python/java)
+9. Integrate sq. to Jenkins and push report to sq.
+10. Integrate AF/S3 and push code to... and send mail 
+11. HA of Jenkins
+12. HA of Ansible
+13. Multibranch cicd pipeline
+14. *apply security on cicd pipeline
+15. above cicd projects using GitHub action/gitlab (ci in different way)
+16. above cicd projects using argoCD (cd in different way)
+

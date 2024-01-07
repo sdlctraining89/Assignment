@@ -1,0 +1,14 @@
+AWS assignment (mix mode) for beginner
+1. S3 mount to a private ec2
+2. Http to Alb to web host (https) + SSL
+3. Update web content....behind ALB
+4. Attach a new node to ALB / Detach a node from ALB
+5. Sticky session in ALB…enable
+6. Update web server which used by AUTO scale
+7. How to attach a static private ip in ec2 instance
+8. Ec2 status ok (2/2) but unhealthy in ALB – why
+9. Golden AMI/Ec2
+10. How to upgrade t2 to t3 which is behind ALB?
+
+
+

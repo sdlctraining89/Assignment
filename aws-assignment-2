@@ -1,0 +1,41 @@
+AWS Hands-on (assignment): 
+========================
+1. Forget .pem/.ppk ... how to solve.
+Hint: i. using AMI of old instance  
+         ii. Detach EBS and attach to current ec2
+2. Attach a 10G EBS to an instance and share it
+3. S3 mount to ec2 on client VPC (support doc)
+4. Secure your s3/s3 glacier content
+5. Create and deploy  a static webpage without using ec2
+6. S3 replication (CRR) between 2 regions (-do-)
+7. Federated users (-do-) and cross account user
+8. An IAM user access only 2 s3 out of 5 (-do-)
+9.  VPC end point to S3 (-do-)
+10. VPC flow log...
+11. Create a VPC and create an ec2 in Calcutta/delhi local zone
+12. Upgrade an ec2 of app/db. …  Zero down time
+13. Upgrade Underlain ec2 of a RDS ….. Zero down time
+14. Upgrade web server using blue-green method
+15. How to check all running instance in AWS of all region. 
+16. Create a cloud watch dashboard
+17. Attach custom metric in CW dashboard 
+18. Send a mail when CPU utility more than 70% of an production instance
+19. Modify ASG (min/max value)
+20. AS launcher image change (replace old image by new image)
+21. Data sync between S3 and EFS
+22. Create AWS infrastructure by terraform
+
+AWS Project: 
+===========
+
+1.	Create and launch a sample website (Application) on Linux instance with high availability and apply scale up facility.
+2.	Above web site should be on client VPC, site use a database (MySQL) as backend. Database should be in high availability mode. 
+3.	Create a test domain using (freenom.com) and configure R53
+4.	Take a technical step to connect database from on premises and apply patch on database.
+5.	Create Storage and mount to an instance on public subnet, create a S3 and set VPC end point to S3.
+6.	Automate backup (shell script / lambda) of database and store to S3, set a life cycle to glacier.
+7.	Create a development environment using beanstalk. Apply auto start/stop dev instance.
+8.	Create an admin user of website, mention in No 1. 
+9.	If instance (website in 1) stop then send message to admin user of the above mention website
+10.	Set and check VPC / network log
+
